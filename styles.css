@@ -150,11 +150,11 @@ nav > ul {
   text-shadow: red 0.2em 0.3em 0.2em;
 }
 
-#hero input[type='email'] {
+/*#hero input[type='email'] {
   max-width: 275px;
   width: 100%;
   padding: 5px;
-}
+}*/
 
 #hero input[type='submit'] {
   max-width: 150px;
@@ -272,6 +272,7 @@ nav > ul {
 
 .product > ol > li {
   padding: 5px 0;
+  
 }
 
 .product > button {
@@ -279,11 +280,13 @@ nav > ul {
   margin: 15px 0;
   background-color: #ff0000;
   font-weight: 400;
+  border-radius: 10px;
 }
 
 .product > button:hover {
   background-color: rgb(255, 0, 0);
   transition: background-color 1s;
+  border-radius: 10px;
 }
 
 @media (max-width: 800px) {
@@ -326,6 +329,7 @@ footer > span {
 .artilheiros{
   width: 200px;
    height: 260px;
+   border-radius: 10px;
 }
 .icon-img{
   width: 100px;
@@ -338,7 +342,7 @@ footer > span {
   position: relative;
   display: inline-flex;
   right: -1%;
-  
+  border-box: 2px;
   
 }
 .pdocarai{
